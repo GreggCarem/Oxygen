@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxygen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header >⇆ unit converter</header>
+  <div class="container">
+    <h1>convert</h1>
+    <br>
+    <select name="conversionName" id="ConversionName">
+      <option value="KmtoMiles">km → miles</option>
+      <option value="MilestoKm">miles → km</option>
+      <option value="FeettoMeters">feet → meters</option>
+      <option value="MeterstoFeet">meters → feet</option>
+      <option value="CmtoInches">cm → inches</option>
+      <option value="InchestoCm">inches → cm</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="changeUnits()">⇆</button>
+    <input type="number" id="inputValue" placeholder="500 km">
+    <div class="result" id="result">62.12 miles</div>
+    <div class="savebttn"><button onclick="save()">❤️</button></div>
+  </div>
+  <h2>saved</h2>
+  <ul class="saved">
+    <li class="square">
+      <span>100 miles → 160 km</span>
+    </li>
+    <li class="square">
+      <span>6 feet → 1.83 metres</span>
+    </li>
+    <li class="square">
+      <span>15 cm → 5.91 inches</span>
+    </li>
+    <li class="square">
+      <span>1 yard → 914.4 millimetres</span>
+    </li>
+    <li class="square">
+      <span>100 miles → 160 km</span>
+    </li>
+    <li class="square">
+      <span>6 feet → 1.83 metres</span>
+    </li>
+    <li class="square">
+      <span>15 cm → 5.91 inches</span>
+    </li>
+    <li class="square">
+      <span>1 yard → 914.4 millimetres</span>
+    </li>
+  </ul>
+
+
+
+</body>
+</html>
